@@ -1,6 +1,6 @@
 /**
- * Created by Konrad on 2017-05-18.
+ * Enumerator Dachu.
  */
 public enum Roof {
-    DACHÓWKA, BLACHA
+    DACHOWKA, BLACHA
 }

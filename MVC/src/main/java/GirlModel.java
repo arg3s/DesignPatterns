@@ -1,6 +1,10 @@
 /**
  * Created by Konrad on 2017-05-18.
  */
+
+/**
+ * Model dziewczyny ze wszystkimi jej cechami - {@link Age}, {@link Look}, {@link Hair}.
+ */
 public class GirlModel {
     private Age age;
     private Look look;

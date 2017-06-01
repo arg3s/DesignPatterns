@@ -5,6 +5,10 @@ import java.util.List;
 /**
  * Created by Konrad on 2017-05-18.
  */
+
+/**
+ * Udostępnia prosty interfejs do operowania na kopalni złota krasnoludów.
+ */
 public class DwarvenGoldmineFacade {
 
     private final List<DwarvenMineWorker> workers;

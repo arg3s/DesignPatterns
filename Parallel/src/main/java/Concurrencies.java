@@ -20,7 +20,10 @@ public class Concurrencies {
         Concurrencies conc = new Concurrencies();
 
         long t0 = System.nanoTime();
-        long cnt = conc.strings.stream().sorted().count();
+        long cnt = conc.strings
+                .stream()
+                .sorted()
+                .count();
         long t1 = System.nanoTime();
         long result = conc.getTime(t1, t0);
         LOGGER.info("Liczba posortowanych elementów stream(): "+cnt + " w czasie: " + result + "ms");

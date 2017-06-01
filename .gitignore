@@ -1,0 +1,55 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+*/target
+gen### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+Builder/src/main/resources/
+Builder/target/generated-sources/
+Builder/target/generated-test-sources/
+DependencyInjection/src/main/resources/
+DependencyInjection/target/generated-sources/
+DependencyInjection/target/generated-test-sources/
+Facade/src/main/resources/
+Facade/target/generated-sources/
+Facade/target/generated-test-sources/
+MVC/src/main/resources/
+MVC/target/generated-sources/
+MVC/target/generated-test-sources/
+Parallel/src/main/resources/
+Parallel/src/test/
+Parallel/target/generated-sources/
+Practices/src/main/resources/
+Practices/src/test/
+Practices/target/
+Singleton/src/main/resources/
+Singleton/target/generated-sources/
+Singleton/target/generated-test-sources/
+util/

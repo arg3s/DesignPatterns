@@ -4,6 +4,10 @@ import org.slf4j.LoggerFactory;
 /**
  * Created by Konrad on 2017-05-18.
  */
+
+/**
+ * Jeden z podsystemów kopalni, kopacz złota.
+ */
 public class DwarvenGoldDigger extends DwarvenMineWorker {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DwarvenGoldDigger.class);

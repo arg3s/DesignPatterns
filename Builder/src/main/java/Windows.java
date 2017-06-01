@@ -1,5 +1,5 @@
 /**
- * Created by Konrad on 2017-05-18.
+ * Enumerator okien.
  */
 public enum Windows {
     DREWNIANE, PLASTIKOWE

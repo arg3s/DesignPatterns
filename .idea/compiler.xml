@@ -11,6 +11,7 @@
         <module name="Facade" />
         <module name="MVC" />
         <module name="Parallel" />
+        <module name="Practices" />
         <module name="Singleton" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="Facade" target="1.8" />
       <module name="MVC" target="1.5" />
       <module name="Parallel" target="1.8" />
+      <module name="Practices" target="1.8" />
       <module name="Singleton" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -16,6 +16,7 @@
         <module>MVC</module>
         <module>Parallel</module>
         <module>Parallel</module>
+        <module>Practices</module>
     </modules>
 
     <dependencies>

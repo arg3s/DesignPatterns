@@ -4,6 +4,10 @@ import org.slf4j.LoggerFactory;
 /**
  * Created by Konrad on 2017-05-18.
  */
+
+/**
+ * Jeden z podsystemów kopalni, kopacz krasnoludzki.
+ */
 public abstract class DwarvenMineWorker {
     private static final Logger LOGGER = LoggerFactory.getLogger(DwarvenMineWorker.class);
 
@@ -47,7 +51,7 @@ public abstract class DwarvenMineWorker {
     }
 
     /**
-     * Perform actions
+     * Wykonuje akcje...
      */
     public void action(Action... actions) {
         for (Action action : actions) {

@@ -1,5 +1,5 @@
 /**
- * Created by Konrad on 2017-05-18.
+ * Budynek, klasa z wieloma parametrami.
  */
 public class Building {
     private final Fundamentals fundamentals;
@@ -7,8 +7,11 @@ public class Building {
     private final Walls walls;
     private final Windows windows;
 
-
-    //Konstruktor dla budynku
+    /**
+     * Konstrutor budowniczego.
+     *
+     * @param builder Budynek
+     */
     public Building(Builder builder) {
         this.fundamentals = builder.fundamentals;
         this.walls = builder.walls;
@@ -43,12 +46,18 @@ public class Building {
     }
 
 
+    /**
+     * Klasa budowniczego.
+     */
     public static class Builder {
         private final Fundamentals fundamentals;
         private Roof roof;
         private Walls walls;
         private Windows windows;
 
+        /**
+         * Konstruktor budynku.
+         */
         public Builder(Fundamentals fundamentals) {
             if (fundamentals == null) {
                 throw new IllegalArgumentException("Building must have fundamentals!");

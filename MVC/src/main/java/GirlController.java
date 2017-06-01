@@ -1,6 +1,10 @@
 /**
  * Created by Konrad on 2017-05-18.
  */
+
+/**
+ * {@link GirlController} zajmuje się zmianą cech dziewczyny oraz wyświetlaniem jej dzięki {@link GirlView}.
+ */
 public class GirlController {
     GirlModel girlModel;
     GirlView girlView;

@@ -1,5 +1,5 @@
 /**
- * Created by Konrad on 2017-05-18.
+ * Enumerator fundamentów.
  */
 public enum Fundamentals {
     BETONOWE, DREWNIANE
